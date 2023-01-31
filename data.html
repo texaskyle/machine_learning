@@ -1,0 +1,91 @@
+import tkinter as tk
+from tkinter import ttk
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.externals import joblib
+
+# Load the saved Logistic Regression model
+model = joblib.load('titanic_model.pkl')
+
+# Load the saved scaler
+scaler = joblib.load('titanic_scaler.pkl')
+
+# GUI interface using Tkinter
+root = tk.Tk()
+root.geometry("400x200")
+root.title("Titanic Survival Prediction")
+
+# Input variables
+Pclass = tk.IntVar()
+Age = tk.DoubleVar()
+SibSp = tk.IntVar()
+Parch = tk.IntVar()
+Fare = tk.DoubleVar()
+male = tk.IntVar()
+Q = tk.IntVar()
+S = tk.IntVar()
+
+# Create input fields
+pclass_entry = ttk.Entry(root, textvariable=Pclass)
+age_entry = ttk.Entry(root, textvariable=Age)
+sibsp_entry = ttk.Entry(root, textvariable=SibSp)
+parch_entry = ttk.Entry(root, textvariable=Parch)
+fare_entry = ttk.Entry(root, textvariable=Fare)
+male_entry = ttk.Entry(root, textvariable=male)
+q_entry = ttk.Entry(root, textvariable=Q)
+s_entry = ttk.Entry(root, textvariable=S)
+
+# Create labels
+pclass_label = ttk.Label(root, text="Pclass")
+age_label = ttk.Label(root, text="Age")
+sibsp_label = ttk.Label(root, text="SibSp")
+parch_label = ttk.Label(root, text="Parch")
+fare_label = ttk.Label(root, text="Fare")
+male_label = ttk.Label(root, text="Male")
+q_label = ttk.Label(root, text="Q")
+s_label = ttk.Label(root, text="S")
+
+# Position the input fields and labels
+pclass_label.grid(row=0, column=0, padx=10, pady=10)
+pclass_entry.grid(row=0, column=1, padx=10, pady=10)
+age_label.grid(row=1, column=0, padx=10, pady=10)
+age_entry.grid(row=1, column=1, padx=10, pady=10)
+sibsp_label.grid(row=2, column=0, padx=10, pady=10)
+sibsp_entry.grid(row=2, column=1, padx=10, pady=10)
+parch_label.grid(row=3, column=0, padx=10, pady=10)
+parch_entry.grid(row=3, column=1, padx=10, pady=10)
+fare_label.grid(row=4, column=0, padx=10, pady=10)
+fare_entry.grid(row=4, column=1, padx=10, pady=10)
+male_label.grid(row=5, column=0, padx=10, pady=10)
+male_entry.grid(row=5, column=1, padx=10, pady=10)
+q_label.grid(row=6, column=0, padx=10, pady=10)
+q_entry.grid(row=6, column=1, padx=10, pady=10)
+s_label.grid(row=7, column=0, padx=10, pady=10)
+s_entry.grid(row=7, column=1, padx=10, pady=10)
+
+
+# Function to make prediction
+def predict_survival():
+    new_sample = [[Pclass.get(), Age.get(), SibSp.get(), Parch.get(), Fare.get(), male.get(), Q.get(), S.get()]]
+    new_sample = scaler.transform(new_sample)
+    prediction = model.predict(new_sample)
+    if prediction == 1:
+      result = "Survived"
+    else:
+      result = "Did not survive"
+      result_label.config(text=result)
+
+
+# Create the prediction button
+predict_button = ttk.Button(root, text="Predict Survival", command=predict_survival)
+predict_button.grid(row=8, column=0, pady=10)
+
+
+
+# Create the result label
+result_label = ttk.Label(root)
+result_label.grid(row=8, column=1)
+
+root.mainloop()
