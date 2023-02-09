@@ -1,0 +1,9 @@
+﻿key1,key2,value1,value2,value3
+one ,a,3,7,
+one,b,5,45,8
+one,c,63,32,
+one,d,,4,9
+two,,4,5,
+two,b,6,,
+two,c,4,7,
+two,d,2,4,6
