@@ -1,0 +1,107 @@
+﻿Course Name,Ratings(out of 5),reviews,skill 1,skill 2,skill 3,skill 4,skill 5
+What is Data Science?,4.7,"56,977",Data Science,Deep Learning,Machine Learning,Big Data,Data Mining
+Tools for Data Science,4.5,"24,584",Data Science,Github,Python Programming,Jupyter notebooks,Rstudio
+Data Science Methodology,4.6,"18,023",Data Science,Data Mining,Methodology,,
+"Python for Data Science, AI & Development",4.6,"27,986",Data Science,Python Programming,Data Analysis,Pandas,Numpy
+Introduction to Databases,4.7,33,Database (DBMS),MySQL,database administration,,
+Version Control,4.8,235,Linux,Web Development,Bash (Unix Shell),Github,Version Control
+Database Structures and Management with MySQL,n/a,n/a,Data Management,Database (DBMS),Relational Database,database administration,MySQL
+Advanced MySQL Topics,n/a,n/a,Database (DB) Design,Database (DBMS),MySQL,,
+"Foundations: Data, Data, Everywhere",4.8,"54,559",Spreadsheet,Data Cleansing,Data Analysis,Data Visualization (DataViz),SQL
+Ask Questions to Make Data-Driven Decisions,4.7,"16,465",Spreadsheet,Questioning,Decision-Making,Problem Solving,Data Analysis
+Prepare Data for Exploration,4.8,"9,692",Spreadsheet,Metadata,Data Collection,Data Ethics,SQL
+Process Data from Dirty to Clean,4.8,"7,100",Spreadsheet,Data Cleansing,Sample Size Determination,SQL,Data Integrity
+Introduction to Data Analytics,4.8,"7,919",Data Science,Spreadsheet,Data Analysis,Microsoft Excel,
+Excel Basics for Data Analysis,4.7,"3,759",Data Science,Spreadsheet,Microsoft Excel,Data Analysis,Pivot Table
+Data Visualization and Dashboards with Excel and Cognos,4.7,"1,843",Microsoft Excel,Data Analysis,Data Visualization (DataViz),IBM Cognos Analytics,Dashboard
+"Python for Data Science, AI & Development",4.6,"27,986",Data Science,Python Programming,Data Analysis,Pandas,Numpy
+Introduction to Data Engineering,4.8,"1,067",Data Science,Database (DBMS),NoSQL,SQL,
+"Python for Data Science, AI & Development",4.6,"27,986",Data Science,Python Programming,Data Analysis,Pandas,Numpy
+Python Project for Data Engineering,4.6,265,"Extraction, Transformation And Loading (ETL)",Python Programming,Information Engineering,Web Scraping,
+Introduction to Relational Databases (RDBMS),4.6,208,Database (DB) Design,Database Architecture,Postgresql,MySQL,Relational Database Management System (RDBMS)
+Introduction to Data Analytics,4.8,"7,919",Data Science,Spreadsheet,Data Analysis,Microsoft Excel,
+Excel Basics for Data Analysis,4.7,"3,759",Data Science,Spreadsheet,Microsoft Excel,Data Analysis,Pivot Table
+Data Visualization and Dashboards with Excel and Cognos,4.7,"1,843",Microsoft Excel,Data Analysis,Data Visualization (DataViz),IBM Cognos Analytics,Dashboard
+Assessment for Data Analysis and Visualization Foundations,3.9,39,n/a,,,,
+Introduction to Data Engineering,4.8,"1,067",Data Science,Database (DBMS),NoSQL,SQL,
+Introduction to Relational Databases (RDBMS),4.6,208,Database (DB) Design,Database Architecture,Postgresql,MySQL,Relational Database Management System (RDBMS)
+Databases and SQL for Data Science with Python,4.6,"15,830",Cloud Databases,Python Programming,Ipython,Relational Database Management System (RDBMS),SQL
+Hands-on Introduction to Linux Commands and Shell Scripting,4.7,419,Shell Script,Bash (Unix Shell),Linux,,
+"Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",4.8,"17,545",Computer Vision,Tensorflow,Machine Learning,,
+Convolutional Neural Networks in TensorFlow,4.7,"7,458",Inductive Transfer,Augmentation,Dropouts,Machine Learning,Tensorflow
+Natural Language Processing in TensorFlow,4.6,"5,961",Natural Language Processing,Tokenization,Machine Learning,Tensorflow,RNNs
+"Sequences, Time Series and Prediction",4.7,"4,541",Forecasting,Machine Learning,Tensorflow,Time Series,prediction
+Create Machine Learning Models in Microsoft Azure,4.6,59,Manage Azure resources for machine learning,Deploy and operationalize machine learning solutions,Run experiments and train models,Implement responsible machine learning,
+Microsoft Azure Machine Learning for Data Scientists,4.7,35,Machine Learning,Supervised Learning,Regression Analysis,regression,
+Build and Operate Machine Learning Solutions with Azure,n/a,n/a,Work with Data and Compute in Azure Machine Learning,Use the Azure Machine Learning SDK to train a model,Select models and protect sensitive data,Orchestrate pipelines and deploy real-time machine learning services with Azure Machine Learning,Deploy batch inference pipelines and tune hyperparameters with Azure Machine Learning
+Perform data science with Azure Databricks,3.9,15,Perform machine learning with Azure Databricks,Work with User-Defined Function (UDF) in Azure databricks,Work with DataFrames in Azure databricks,Use Azure Databricks and the Apache Spark notebook to process large amounts of data,Build and query a Delta Lake
+Microsoft Azure for Data Engineering,4.5,190,Choose Microsft Azure data technologies that meet different business needs and scale to meet demand securely,Describe common data engineering practices,Explain the differences between on-premises and cloud data solutions,Prepare for the Microsoft Certified: Azure Data Engineer Associate exam,
+Data Storage in Microsoft Azure,4.5,52,Design and implement data storage,Design and implement data security,Monitor and optimize data storage and data processing,Design and develop data processing,
+Data Integration with Microsoft Azure Data Factory,3.9,51,Create data pipelines in the cloud,Manage data pipelines in the cloud,Integrate data at scale with Azure Synapse Pipeline,Integrate data at scale with Azure Data Factory,
+Introduction to Microsoft Azure Synapse Analytics,4.5,21,Use Azure Synapse Analytics to build Data Warehouses using modern architecture patterns,Describe the features and components that Azure Synapse Analytics,Use Azure Synapse Analytics to build your analytical solutions in one place,Use Azure Synapse Studio application to interact with the various components of Azure Synapse Analytics,
+Exploratory Data Analysis for Machine Learning,4.6,843,Artificial Intelligence (AI),Machine Learning,Feature Engineering,Statistical Hypothesis Testing,Exploratory Data Analysis
+Supervised Machine Learning: Regression,4.7,277,Regression Analysis,Supervised Learning,Linear Regression,Ridge Regression,Machine Learning (ML) Algorithms
+Supervised Machine Learning: Classification,4.9,166,Decision Tree,Ensemble Learning,Classification Algorithms,Supervised Learning,Machine Learning (ML) Algorithms
+Unsupervised Machine Learning,4.7,141,Dimensionality Reduction,Unsupervised Learning,Cluster Analysis,K Means Clustering,Principal Component Analysis (PCA)
+Structured Query Language (SQL) using SAS,4.9,185,n/a,,,,
+SAS Macro Language,4.8,104,n/a,,,,
+Advanced SAS Programming Techniques,4.9,66,n/a,,,,
+Address Business Issues with Data Science,4.9,10,Data-Informed Decision-Making,Scope (Project Management),Business Process,,
+"Extract, Transform, and Load Data",n/a,n/a,"Extraction, Transformation And Loading (ETL)",Cleaning,Data Mining,,
+Analyze Data,n/a,n/a,Data Insight,Data Analysis,Dissemination,Preprocess Data,Data Visualization (DataViz)
+Train Machine Learning Models,n/a,n/a,design of experiments,Machine Learning,clustering,regression,classification
+Promote the Ethical Use of Data-Driven Technologies,4.7,138,n/a,,,,
+Turn Ethical Frameworks into Actionable Steps,4.6,88,Business Analysis,Information Privacy,Business Strategy,Compliance,Ethics Of Artificial Intelligence
+Detect and Mitigate Ethical Risks,4.5,62,Risk Management,General Statistics,Risk Assessment,Ethics Of Artificial Intelligence,Privacy
+Communicate Effectively about Ethical Challenges in Data-Driven Technologies,4.5,53,Marketing,Business Strategy,Leadership And Management,Communication,Crisis Management
+Machine Learning with Python,4.7,"12,940",Python Libraries,Machine Learning,regression,Hierarchical Clustering,K-Means Clustering
+Introduction to Deep Learning & Neural Networks with Keras,4.7,"1,111",Deep Learning,Artificial Neural Network,Artificial Intelligence (AI),Machine Learning,keras
+Introduction to Computer Vision and Image Processing,4.4,815,Deep Learning,Opencv,Artificial Intelligence (AI),Image Processing,Computer Vision
+Deep Neural Networks with PyTorch,4.4,"1,184",n/a,,,,
+Introduction to Artificial Intelligence (AI),4.7,"9,662",Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning
+Getting Started with AI using IBM Watson,4.5,"2,488",Deep Learning,Application Programming Interfaces (API),Artificial Intelligence (AI),Machine Learning,watson
+Building AI Powered Chatbots Without Programming,4.8,"2,227",n/a,,,,
+"Python for Data Science, AI & Development",4.6,"27,986",Data Science,Python Programming,Data Analysis,Pandas,Numpy
+Google Cloud Big Data and Machine Learning Fundamentals,4.7,"14,928",Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+Modernizing Data Lakes and Data Warehouses with Google Cloud,4.7,"2,562",n/a,,,,
+Building Batch Data Pipelines on Google Cloud,4.5,"1,534",n/a,,,,
+Building Resilient Streaming Analytics Systems on Google Cloud,4.6,"1,167",n/a,,,,
+Getting Started with SAS Programming,4.8,"2,568",SAS Studio,Import Data,Reports,Prepare Data,SAS Programs
+Doing More with SAS Programming,4.8,824,n/a,,,,
+Preparing for the SAS Programming Certification Exam,4.8,76,n/a,,,,
+Practicing for the SAS Programming Certification Exam,4.9,55,n/a,,,,
+Getting Started with SAS Visual Analytics,4.7,750,n/a,,,,
+Data Analysis and Reporting in SAS Visual Analytics,4.8,306,n/a,,,,
+Using Data for Geographic Mapping and Forecasting in SAS Visual Analytics,4.8,196,n/a,,,,
+"Performing Network, Path, and Text Analyses in SAS Visual Analytics",4.7,178,n/a,,,,
+Bookkeeping Basics,4.6,"2,085",Basis Of Accounting,accounting software,Accounting Cycle,Creating Financial Statements,Double-Entry Bookkeeping System
+Assets in Accounting,4.3,425,Accounts receivable and cash receipts,Inventory costing methods,PP&E Accounting,Asset Accounting,Depreciation
+Financial Statement Analysis,4.4,180,Cash Flow,Bank Reconciliation,Financial reports analysis,financial statement analysis,
+Foundations of Project Management,4.9,"43,105",Organizational Culture,Career Development,Strategic Thinking,Change Management,Project Management
+Project Initiation: Starting a Successful Project,4.8,"9,667",Stakeholder Management,Strategic Thinking,Business Writing,Project Management,Project Charter
+Project Planning: Putting It All Together,4.8,"5,637",Project Planning,Strategic Thinking,Risk Management,Task Estimation,Procurement
+Project Execution: Running the Project,4.8,"3,627",Quality Management,Strategic Thinking,Project Execution,Risk Management,Project Management
+Introduction to Social Media Marketing,4.8,"8,645",Social Media Marketing,Marketing,Digital Marketing,Social Media Marketing Strategy,
+Social Media Management,4.9,"3,091",Content Development,content management,Social Media Marketing,Content Marketing,Marketing Content Development
+Fundamentals of Social Media Advertising,4.8,"1,335",Social Media Marketing,Brand Management,Campaign Management,Ad Management,
+Advertising with Meta,4.8,"1,501",Social Media Marketing,Meta Ads Manager,Meta advertising,,
+Marketing Analytics Foundation,4.8,945,Data Analysis,Marketing,Digital Marketing,,
+Introduction to Data Analytics,3.5,116,Marketing,Python Programming,Data Analysis,Tableau Software,Data Visualization (DataViz)
+Statistics for Marketing,4.7,53,Marketing,Statistical Analysis,Data Analysis,Linear Regression,Statistical Hypothesis Testing
+Data Analytics Methods for Marketing,4.8,68,Marketing,Marketing Mix Modeling,Data Analysis,Linear Regression,Marketing Plan
+Foundations of Digital Marketing and E-commerce,4.8,"2,808",Marketing,Customer loyalty,E-Commerce,Marketing Analytics,Customer Outreach
+Attract and Engage Customers with Digital Marketing,4.8,576,Website Structure,Customer Awareness,Google,Search Engine Marketing,Search Engine Optimization (SEO)
+From Likes to Leads: Interact with Customers Online,4.7,232,Social Listening,Social Media Bidding,Customer Engagement,Social Media Analytics,Social Media Branding
+Think Outside the Inbox: Email Marketing,4.7,144,Email Writing,Email list segmentation,Email marketing strategy,Email marketing analytics,Contact management
+Sales and CRM Overview,4.6,382,CRM,Sales Operations,Sales,Salesforce Sales Cloud,Salesforce
+Lead Management in Salesforce,4.7,120,Lead Management,CRM,Sales Operations,Salesforce Lightning,Salesforce
+Opportunity Management in Salesforce,4.8,69,CRM,Opportunity Management,Sales Operations,Salesforce Lightning,Salesforce
+"Reports, Dashboards, and Customer Success in Salesforce",4.7,67,Reports and Dashboards,CRM,Sales Operations,Customer Success,Salesforce
+Groundwork for Success in Sales Development,4.5,212,Sales,Sales Development,teamwork,Time management,
+Foundations for Interviewing with Confidence,4.4,29,Personal Advertisement,Audience,interviewing,Personal Branding,Resume writing
+Conversational Selling Playbook for SDRs,4.8,13,Sales Development,cold emailing,Sales,objection handling,Cold Calling
+Boosting Productivity through the Tech Stack,n/a,n/a,Prospecting,video prospecting,Sales Development,sales engagement,Customer Relationship Management Software
+Sales Enablement,n/a,n/a,Customer Relationship Management (CRM),Content Creation,Customer Success,Sales,Sales Enablement
+Inbound Sales,n/a,n/a,Outreach Sequence,Social Selling,Customer Experience,Inside Sales,Sales Presentation
+Lead Management with HubSpot,n/a,n/a,Customer Relationship Management (CRM),Data Analysis,Lead Management,,
+Sales Reporting with HubSpot,n/a,n/a,Data Management,Customer Relationship Management (CRM),Data Analysis,Sales,Data Visualization (DataViz)
